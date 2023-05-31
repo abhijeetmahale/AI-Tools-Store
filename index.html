@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=100, initial-scale=2.0, maximum-scale=1.0, user-scalable=no" />
+ <meta name="viewport" content="width=100, initial-scale=2.0, maximum-scale=1.0, user-scalable=no" />
   <title>AI Tool Store</title>
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
+
   <header>
-    <h1>
+    <h3>
       <img src="logomega-removebg-preview.png" alt="Logo" width="100px" height="100px">
       AI Tools Store
-    </h1>
+    </h3>
     <nav>
       <ul>
         <li><a href="HomePage" >Home</a></li>
@@ -22,17 +24,21 @@
   </header>
 <body1> <div class="body1">
   <h1>     AI Tools Store </h1>
-  <p>  Find the best AI tool for your Work with our library</p>
+  <p>   Find the best AI tool for your Work with our library</p>
   
 </div>
 </body1>
   <main>
     
-    <label for="search-filter"> <h1>Search Your AI:</h1></label>
     <section id="search-filter">
-      <input type="text" id="searchInput" placeholder="Search For AI">
-      <label for="categoryFilter">Filter by category:</label>
-      <select id="categoryFilter">
+      <div class="search-wrapper">
+        <label for="searchInput">Search Your AI:</label>
+        <input type="text" id="searchInput" placeholder="Search For AI">
+        <button id="searchButton">Search</button>
+      </div>
+      <div class="filter-wrapper">
+        <label for="categoryFilter">Filter by category:</label>
+        <select id="categoryFilter">
         <option value="">All Categories</option>
         <option value="#Art">Art</option>
         <option value="#Copywriting">Copywriting</option>
